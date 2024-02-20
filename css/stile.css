@@ -1,0 +1,389 @@
+*{
+    font-family: "ADLaM Display", system-ui;
+    margin: 0;
+    padding: 0;
+    border-radius: 25px;
+    text-decoration: none;
+    list-style-type: none;
+
+
+}
+main, footer{
+    background-color: #D5D8DC;
+}
+
+
+.navbar-brand{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "ADLaM Display", system-ui;
+    font-style: italic;
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: white;
+    font-style: normal;
+}
+
+
+.mover-derecha {
+    margin-left: auto;
+}
+
+.bk-blue{
+    background-color: darkblue;
+}
+
+
+.sec-1-destino {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 150px;
+    margin-left: 30px;
+    justify-content: space-around;
+
+}
+
+.img-zona-verde{
+    padding: 10px;
+}
+
+
+.sec-1{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding: 5% 10%;
+}
+
+.texto-empresa{
+    display: flex;
+
+}
+
+.sec-1 img{
+    margin-right: 5%;
+}
+
+.text-sec-1{
+margin-left: 40px;
+}
+
+.bus-gris{
+    padding: 5%;
+}
+
+.panoramico-negro{
+
+    margin-top: 90px;
+}
+
+.sec-nosotros{
+    padding: 5% 10%;
+    border-bottom-style: solid;
+}
+
+.patrocinadores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.patrocinadores img{
+    width: 20%;
+}
+
+.cotizacion{
+    padding: 5%;
+    border-bottom-style: solid;
+}
+
+.img-cotizacion{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../imagenes/img\ 4.jpeg);
+    padding: 30px;
+    background-repeat: no-repeat;
+    color: black;
+    padding-left: 20PX;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 10%;
+}
+
+.contacto img{
+    margin-right: 5%;
+}
+
+.text-contacto{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-left: 15px;
+}
+
+.contenido{
+    border-bottom-style: solid;
+
+}
+
+.contenido h2{
+    text-align: center;
+    margin: 5%;
+    font-size: 50px;
+}
+
+.img-principal{
+    padding-top: 30px;
+}
+
+.img-principal img{
+     width: 100%; /* ancho */
+    height: 85%; /* alto */
+    padding: 30px;
+}
+
+
+#vid{
+    width: 70%; /* ancho */
+    height: 220px; /* alto */
+}
+
+p{
+    font-size: 21px;
+}
+
+h3{
+    font: size 48px;
+        font-weight: 500;
+        font-style: normal;
+}
+
+h4{
+    font-size: 31px;
+        font-weight: 500;
+        font-style: normal;
+}
+
+#contacto{
+    background-color: gray;
+    border-radius: 12px;
+    padding: 20px;
+    width: 250px;
+}
+
+#contacto input {
+    border-radius: 0;
+}
+
+#contacto textarea{
+    border-radius: 0;
+}
+
+#destino{
+    background-color: gray;
+    border-radius: 12px;
+    padding: 20px;
+    width: 250px;
+}
+.caja-contacto{
+    padding: 50px;
+
+}
+
+.bus-transito{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.galeria{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 20px;
+    width: 350px;
+    box-shadow: 0 4px 8px 0 lightblue; box-shadow: 0 6px 20 px 0 rgba(0,0,0,0.19);
+
+}
+
+.galeria img{
+    width: 100%;
+    height: auto;
+
+}
+
+.galeria:hover{
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+
+}
+
+.pie{
+    text-align: center;
+    padding: 10px;
+
+}
+
+.mapa{
+    width: 50%;
+}
+
+.mapa-iframe{
+    width: 100%;
+    height: 400px;
+}
+
+.carousel-inner{
+    height: 450px; /*alto*/
+   width: 50%; /*ancho*/
+}
+
+
+@media(max-width:480px){
+
+    .navbar-brand{
+        font-size: 30px;
+    }
+
+    header{
+        position: absolute;
+        width: 100%;
+        height: 190px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: start;
+        border-bottom: black;
+    }
+
+    .img-principal img{
+        height: 200px;
+        padding: 1px;
+        margin-top: 180px;
+
+    }
+
+    .contenido h2{
+        text-align: center;
+        margin: 5%;
+        font-size: 30px;
+    }
+    #vid{
+        width: 350px;
+        height: 200px;
+    }
+
+
+    .sec-1{
+        margin-top: 0px;
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+    }
+
+    .sec-1 img{
+        margin-right: 0%;
+        width: 350px;
+    }
+
+    .text-sec-1{
+    margin-left: 10px;
+    }
+
+    .contacto{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .text-contacto{
+
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        margin-left: 15px;
+        margin-top: 40px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    h4{
+        font-size: 27px;
+            font-weight: 500;
+            font-style: normal;
+    }
+
+    p{
+        font-size: 17px;
+    }
+
+    .mapa{
+        width: 100%;
+    }
+
+    .mapa-iframe{
+        width: 100%;
+        height: 300px;
+    }
+
+    .bus-transito{
+        margin-right: 130%;
+        width: 2px;
+
+    }
+
+    .sec-1-destino{
+        flex-direction: column;
+        padding-top: 150px;
+        margin-left: 10px;
+        justify-content:space-between;
+
+    }
+
+    .sec-1-destino img{
+        width: 350px;
+        margin-top: 50px;
+    }
+
+    .bus-gris {
+        margin-top: 120px;
+    }
+
+    .bus-transito {
+        margin-top: 130px;
+    }
+
+    #destino{
+        margin-top: 50px;
+    }
+
+    .carousel-inner{
+        padding-top: 220px;
+        height: 450px; /*alto*/
+        width: 100%; /*ancho*/
+    
+    }
+
+    
+
+}
+
+
+
+
+
+
