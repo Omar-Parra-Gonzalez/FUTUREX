@@ -149,7 +149,8 @@ margin-left: 40px;
 }
 
 .img-principal img{
-     width: 100%; /* ancho */
+    margin-top: 110px;
+    width: 100%; /* ancho */
     height: 85%; /* alto */
     padding: 30px;
 }
@@ -245,6 +246,7 @@ h4{
 }
 
 .carousel-inner{
+   margin-left: 30%;
    width: 100%; /*ancho*/
 }
 
@@ -359,6 +361,16 @@ h4{
         margin-top: 50px;
     } 
 
+    .carousel-inner{
+        width: 50%; /*ancho*/
+     }
+     
+
+     .d-block{
+        width: 500px;
+        height: 100px;
+
+     }
 }
 
 
