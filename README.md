@@ -1,4 +1,4 @@
-pagina realizada para presentar el proyecto del curso de coderhouse
+esta es una copia del proyecto para presentar en el curso de desarrollo web de coderhouse
 temas usados:
 html
 -css
