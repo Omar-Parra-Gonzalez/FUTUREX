@@ -114,15 +114,15 @@ footer .contacto {
   justify-content: space-between;
   padding: 5% 10%;
 }
-footer .contacto .img {
+footer .contacto-img {
   margin-right: 5%;
 }
-footer .contacto .text {
+footer .text-contacto {
   height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-left: 15px;
+  margin-left: 30px;
 }
 footer .mapa {
   width: 50%;

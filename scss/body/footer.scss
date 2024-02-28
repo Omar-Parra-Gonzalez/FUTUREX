@@ -9,21 +9,21 @@ footer{
         justify-content: space-between;
         padding: 5% 10%;
 
-        .img{
-            margin-right: 5%;
-        }
-
-        .text{
-            height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content:space-around;
-            margin-left: 15px;
-        }
-
     
     }
-  
+
+    .contacto-img{
+        margin-right: 5%;
+    }
+
+    .text-contacto{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        margin-left: 30px;
+    }
+
     .mapa{
         width: 50%;
     }
