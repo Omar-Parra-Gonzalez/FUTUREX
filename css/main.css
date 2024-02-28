@@ -1,0 +1,218 @@
+* {
+  font-family: "ADLaM Display", system-ui;
+  margin: 0;
+  padding: 0;
+  border-radius: 25px;
+  text-decoration: none;
+  list-style-type: none;
+}
+* p {
+  font-size: 21px;
+}
+* h3 {
+  font: size 48px;
+  font-weight: 500;
+  font-style: normal;
+}
+* h4 {
+  font-size: 31px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+header .navbar-brand {
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "ADLaM Display", system-ui;
+  font-style: italic;
+  padding: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  color: white;
+  font-style: normal;
+}
+header .mover-derecha {
+  margin-left: auto;
+}
+header .bk-blue {
+  background-color: darkblue;
+}
+
+main {
+  background-color: #D5D8DC;
+}
+main .img-principal {
+  padding-top: 30px;
+}
+main .img-principal img {
+  margin-top: 110px;
+  width: 100%; /* ancho */
+  height: 85%; /* alto */
+  padding: 30px;
+}
+main .contenido {
+  border-bottom-style: solid;
+}
+main .contenido h2 {
+  text-align: center;
+  margin: 5%;
+  font-size: 50px;
+}
+main .sec-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5% 10%;
+}
+main .text-sec-1 {
+  margin-left: 40px;
+}
+main .sec-1 img {
+  margin-right: 5%;
+}
+main #vid {
+  width: 70%; /* ancho */
+  height: 220px; /* alto */
+}
+main .sec-nosotros {
+  padding: 5% 10%;
+  border-bottom-style: solid;
+}
+main .patrocinadores {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+main .patrocinadores img {
+  width: 20%;
+}
+main .cotizacion {
+  padding: 5%;
+  border-bottom-style: solid;
+}
+main .img-cotizacion {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../imagenes/img\ 4.jpeg);
+  padding: 30px;
+  background-repeat: no-repeat;
+  color: black;
+  padding-left: 20PX;
+}
+
+footer {
+  background-color: #D5D8DC;
+}
+footer .contacto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5% 10%;
+}
+footer .contacto .img {
+  margin-right: 5%;
+}
+footer .contacto .text {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 15px;
+}
+footer .mapa {
+  width: 50%;
+}
+footer .mapa-iframe {
+  width: 100%;
+  height: 400px;
+  justify-content: space-around;
+}
+
+.bus-gris {
+  padding: 5%;
+}
+
+.galeria {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 20px;
+  width: 350px;
+  box-shadow: 0 4px 8px 0 lightblue;
+  box-shadow: 0 6px 20 px 0 rgba(0, 0, 0, 0.19);
+}
+
+.galeria img {
+  width: 100%;
+  height: auto;
+}
+
+.galeria:hover {
+  border: 1px solid lightcoral;
+  transform: rotate(-3deg);
+}
+
+.pie {
+  text-align: center;
+  padding: 10px;
+}
+
+.carousel-inner {
+  margin-left: 30%;
+  width: 100%; /*ancho*/
+}
+
+.texto-empresa {
+  display: flex;
+}
+
+.img-zona-verde {
+  padding: 10px;
+}
+
+#contacto {
+  background-color: gray;
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+}
+
+#contacto input {
+  border-radius: 0;
+}
+
+#contacto textarea {
+  border-radius: 0;
+}
+
+.bus-transito {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.caja-contacto {
+  padding: 50px;
+}
+
+.sec-1-destino {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 150px;
+  margin-left: 30px;
+  justify-content: space-around;
+}
+
+#destino {
+  background-color: gray;
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,74 @@
+main{
+    
+    background-color: $color-secundario;
+
+    .img-principal{
+        padding-top: 30px;
+    }
+    .img-principal img{
+        margin-top: 110px;
+        width: 100%; /* ancho */
+        height: 85%; /* alto */
+        padding: 30px;
+    }
+    
+    .contenido{
+        border-bottom-style: solid;
+    
+    }
+    .contenido h2{
+        text-align: center;
+        margin: 5%;
+        font-size: 50px;
+    }
+    .sec-1{
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        padding: 5% 10%;
+    }
+    .text-sec-1{
+        margin-left: 40px;
+        }
+
+    .sec-1 img{
+        margin-right: 5%;
+    }
+    
+    #vid{
+        width: 70%; /* ancho */
+        height: 220px; /* alto */
+    }
+
+    .sec-nosotros{
+        padding: 5% 10%;
+        border-bottom-style: solid;
+    }
+    
+    .patrocinadores{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+    .patrocinadores img{
+        width: 20%;
+    }
+
+    .cotizacion{
+        padding: 5%;
+        border-bottom-style: solid;
+    }
+    .img-cotizacion{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url(../imagenes/img\ 4.jpeg);
+        padding: 30px;
+        background-repeat: no-repeat;
+        color: black;
+        padding-left: 20PX;
+    }
+    
+}

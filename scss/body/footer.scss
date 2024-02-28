@@ -1,0 +1,38 @@
+footer{
+    
+    background-color: $color-secundario;
+    
+    .contacto{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5% 10%;
+
+        .img{
+            margin-right: 5%;
+        }
+
+        .text{
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-around;
+            margin-left: 15px;
+        }
+
+    
+    }
+  
+    .mapa{
+        width: 50%;
+    }
+    .mapa-iframe{
+        width: 100%;
+        height: 400px;
+        justify-content:space-around;
+    }
+
+    
+    
+}

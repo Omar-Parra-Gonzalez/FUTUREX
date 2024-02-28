@@ -1,0 +1,11 @@
+{
+  "name": "proyecto---copia",
+  "version": "1.0.0",
+  "description": "pagina realizada para presentar el proyecto del curso de coderhouse\r temas usados:\r html\r -css\r -flexbox\r -bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

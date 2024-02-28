@@ -1,0 +1,36 @@
+.bus-gris{
+    padding: 5%;
+}
+.galeria{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 20px;
+    width: 350px;
+    box-shadow: 0 4px 8px 0 lightblue; box-shadow: 0 6px 20 px 0 rgba(0,0,0,0.19);
+
+}
+
+.galeria img{
+    width: 100%;
+    height: auto;
+
+}
+
+.galeria:hover{
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+
+}
+
+.pie{
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+.carousel-inner{
+   margin-left: 30%;
+   width: 100%; /*ancho*/
+}
