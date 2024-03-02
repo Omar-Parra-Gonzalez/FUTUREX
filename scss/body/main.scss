@@ -60,7 +60,7 @@ main{
         border-bottom-style: solid;
     }
     .img-cotizacion{
-        height: 400px;
+        height: 450px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -68,7 +68,51 @@ main{
         padding: 30px;
         background-repeat: no-repeat;
         color: black;
-        padding-left: 20PX;
+        padding-left: 30PX;
     }
+
+    @mixin media-query-mobile{
+        @media (max-width: 576px){
+            @content;
+        }
+    }
+
+    @media (max-width: 576px){
+        .img-principal{
+            padding-top: 0px;
+        }
     
+        .img-principal img{
+            margin-top: 3%;
+            height: 200px;
+            padding: 1px;
+        }
+
+        .contenido h2{
+            text-align: center;
+            margin: 5%;
+            font-size: 30px;
+        }
+
+        #vid{
+            width: 350px;
+            height: 200px;
+        }
+    
+        .sec-1{
+            margin-top: 0px;
+            display: flex;
+            align-items:center;
+            flex-direction: column;
+        }
+    
+        .sec-1 img{
+            margin-right: 0%;
+            width: 350px;
+        }
+    
+        .text-sec-1{
+        margin-left: 10px;
+        }
+    }
 }

@@ -17,7 +17,26 @@ header{
     }
     
     .bk-blue{
-    background-color: $color-primario;
+        background-color: $color-primario;
     }
-    
+
+    @mixin media-query-mobile{
+        @media (max-width: 576px){
+            @content;
+        }
+    }
+
+    @media (max-width: 576px){
+        .navbar-brand{
+            font-size: 25px;
+        }
+
+        .navbar{
+            position: relative;
+        }
+        .tit-log img{
+            height: 70px;
+        }
+    }
+
 }

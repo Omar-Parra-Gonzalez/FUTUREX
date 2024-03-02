@@ -21,6 +21,29 @@
             font-weight: 500;
             font-style: normal;
     }
+
+    @mixin media-query-mobile{
+        @media (max-width: 576px){
+            @content;
+        }
+    }
+
+    @media (max-width: 576px){
+        h2{
+            font-size: 30px;
+        }
+    
+        h4{
+            font-size: 27px;
+                font-weight: 500;
+                font-style: normal;
+        }
+    
+        p{
+            font-size: 17px;
+        }
+    
+    }
     
 
 }

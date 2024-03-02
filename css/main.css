@@ -19,6 +19,19 @@
   font-weight: 500;
   font-style: normal;
 }
+@media (max-width: 576px) {
+  * h2 {
+    font-size: 30px;
+  }
+  * h4 {
+    font-size: 27px;
+    font-weight: 500;
+    font-style: normal;
+  }
+  * p {
+    font-size: 17px;
+  }
+}
 
 header .navbar-brand {
   font-size: 50px;
@@ -37,6 +50,17 @@ header .mover-derecha {
 }
 header .bk-blue {
   background-color: darkblue;
+}
+@media (max-width: 576px) {
+  header .navbar-brand {
+    font-size: 25px;
+  }
+  header .navbar {
+    position: relative;
+  }
+  header .tit-log img {
+    height: 70px;
+  }
 }
 
 main {
@@ -93,7 +117,7 @@ main .cotizacion {
   border-bottom-style: solid;
 }
 main .img-cotizacion {
-  height: 400px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,7 +125,39 @@ main .img-cotizacion {
   padding: 30px;
   background-repeat: no-repeat;
   color: black;
-  padding-left: 20PX;
+  padding-left: 30PX;
+}
+@media (max-width: 576px) {
+  main .img-principal {
+    padding-top: 0px;
+  }
+  main .img-principal img {
+    margin-top: 3%;
+    height: 200px;
+    padding: 1px;
+  }
+  main .contenido h2 {
+    text-align: center;
+    margin: 5%;
+    font-size: 30px;
+  }
+  main #vid {
+    width: 350px;
+    height: 200px;
+  }
+  main .sec-1 {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  main .sec-1 img {
+    margin-right: 0%;
+    width: 350px;
+  }
+  main .text-sec-1 {
+    margin-left: 10px;
+  }
 }
 
 footer {
@@ -132,9 +188,27 @@ footer .mapa-iframe {
   height: 400px;
   justify-content: space-around;
 }
-
-.bus-gris {
-  padding: 5%;
+@media (max-width: 576px) {
+  footer .contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .text-contacto {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-top: 40px;
+  }
+  footer .mapa {
+    width: 100%;
+  }
+  footer .mapa-iframe {
+    width: 100%;
+    height: 300px;
+  }
 }
 
 .galeria {
@@ -190,29 +264,37 @@ footer .mapa-iframe {
   border-radius: 0;
 }
 
-.bus-transito {
-  margin-top: 50px;
-  margin-left: 30px;
+.sec-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .caja-contacto {
   padding: 50px;
 }
 
-.sec-1-destino {
+.sec-1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-top: 150px;
-  margin-left: 30px;
-  justify-content: space-around;
+  padding: 5% 10%;
 }
 
 #destino {
   background-color: gray;
-  border-radius: 12px;
+  border-radius: 20px;
   padding: 20px;
-  width: 250px;
+  width: 280px;
+}
+
+#destino textarea {
+  border-radius: 0%;
+}
+
+#destino input {
+  border-radius: 0%;
 }
 
 /*# sourceMappingURL=main.css.map */
