@@ -47,13 +47,15 @@ footer{
         }
     
         .text-contacto{
-    
             height: 400px;
             display: flex;
             flex-direction: column;
             justify-content:space-around;
             margin-left: 15px;
             margin-top: 40px;
+            img{
+                width: 30%;
+            }
         }
 
         .mapa{

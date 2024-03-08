@@ -40,6 +40,11 @@
         .bus-gris {
             margin-top: 120px;
         }
+
+        .carousel-inner-img {
+            width: 10%; /* Reducir el ancho de las imágenes */
+            max-width: 576px; /* Establecer un ancho máximo para las imágenes */
+        }
          
 
     }

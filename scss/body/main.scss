@@ -1,5 +1,5 @@
 main{
-    
+
     background-color: $color-secundario;
 
     .img-principal{
@@ -52,7 +52,7 @@ main{
         margin-top: 5%;
     }
     .patrocinadores img{
-        width: 20%;
+        width: 10%;
     }
 
     .cotizacion{
@@ -98,7 +98,7 @@ main{
             width: 350px;
             height: 200px;
         }
-    
+
         .sec-1{
             margin-top: 0px;
             display: flex;
@@ -115,9 +115,17 @@ main{
         margin-left: 10px;
         }
 
-    
+        .patrocinadores{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-around;
+            margin-top: 5%;
+            img{
+                width: 20%;
 
+            }
     
     }
 
+    }
 }
