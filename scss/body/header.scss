@@ -1,4 +1,11 @@
 header{
+
+    @mixin media-query-mobile{
+        @media (max-width: 576px){
+            @content;
+        }
+    }
+
     .navbar-brand{
         font-size: 50px;
         font-weight: 500;
@@ -10,6 +17,9 @@ header{
         align-items: end;
         color: white;
         font-style: normal;
+        @include media-query-mobile(){
+            font-size: 25px;
+        }
     }
 
     .mover-derecha {
@@ -20,17 +30,7 @@ header{
         background-color: $color-primario;
     }
 
-    @mixin media-query-mobile{
-        @media (max-width: 576px){
-            @content;
-        }
-    }
-
     @media (max-width: 576px){
-        .navbar-brand{
-            font-size: 25px;
-        }
-
         .navbar{
             position: relative;
         }
@@ -38,5 +38,4 @@ header{
             height: 70px;
         }
     }
-
 }
