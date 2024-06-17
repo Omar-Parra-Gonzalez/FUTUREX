@@ -1,4 +1,4 @@
-Este es el proyecto original para presentar en el curso de desarrollo web de coderhouse
+Este es copia del original en el curso de desarrollo web de coderhouse
 temas usados:
 html
 -scss
